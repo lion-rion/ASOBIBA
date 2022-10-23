@@ -46,7 +46,7 @@ lsの結果にアイコンを付けてくれて，色付けもしてくれるの
 
 いろんなものを色付けしてくれるものです．自分はifconfig，ping，makeあたりを色付けしています
 
-<img width="717" alt="スクリーンショット 2022-10-24 3 52 15" src="https://user-images.githubusercontent.com/79553411/197410280-556941b6-f082-49aa-893e-8853c9413610.png">
+<img style="border: 1px solid #black;" width="717" alt="スクリーンショット 2022-10-24 3 52 15" src="https://user-images.githubusercontent.com/79553411/197410280-556941b6-f082-49aa-893e-8853c9413610.png">
 
 ## License
 This software is released under the MIT License, see LICENSE.
