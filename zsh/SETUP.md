@@ -172,19 +172,6 @@ alias make='grc make'
 
 エイリアスを使わない場合は`grc ping`などで使えます
 
-
-## Authors
-[@Lion](https://github.com/lion-rion)
-
-
-いろんなものを色付けしてくれるものです．自分はifconfig，ping，makeあたりを色付けしています
-
----
-
-<img width="717" alt="スクリーンショット 2022-10-24 3 52 15" src="https://user-images.githubusercontent.com/79553411/197410280-556941b6-f082-49aa-893e-8853c9413610.png">
-
----
-
 ## Authors
 [@Lion](https://github.com/lion-rion)
 
