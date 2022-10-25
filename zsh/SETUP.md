@@ -69,33 +69,31 @@ p10k configure
 
 ### zsh-syntax-highlighting
 
-存在しているコマンドであれば緑色に光ります．間違っていると赤色に光るのでわかりやすいですね！
+1.ターミナルで以下を実行
 
----
+今回はpulginなどを用いず通常インストールします
 
-<img width="174" alt="スクリーンショット 2022-10-24 3 35 47" src="https://user-images.githubusercontent.com/79553411/197409632-eb8f611f-10a8-4fe7-b862-369c402b0566.png">
+```bash
+#ホームディレクトリに移動
+cd ~/
 
----
+#クローン
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+
+#.zshrcに書き込み
+echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+
+#zsh-syntax-highlightingの有効化
+source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
 
 ### zsh-autosuggestions
 
-過去の入力からサジェスト表示してくれます．コマンドを↑で遡るもの面倒だけど打つのも面倒...ってときに超有能です
 
----
-
-<img width="885" alt="スクリーンショット 2022-10-24 3 54 16" src="https://user-images.githubusercontent.com/79553411/197410368-8411c1cc-3310-4898-a290-6a9d5dc98ccf.png">
-
----
 
 ### ccat
 
-catコマンドの結果に色を付けてくれます
 
----
-
-<img width="567" alt="スクリーンショット 2022-10-24 3 44 44" src="https://user-images.githubusercontent.com/79553411/197409962-4f373bd2-8993-4be2-b180-239c2edb4b59.png">
-
----
 
 ### exa
 
