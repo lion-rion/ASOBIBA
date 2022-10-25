@@ -93,23 +93,89 @@ source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ### zsh-autosuggestions
 
+以下をターミナルで実行
 
+```bash
+#.zshフォルダにクローン 
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+
+//.zshrcへの書き込み
+echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+
+#設定を更新
+source ~/.zshrc
+```
 
 ### ccat
 
+以下をターミナルで実行
 
+```bash
+#brewでインストール
+brew install ccat
+```
+
+2.エイリアスの設定
+
+.zshrcに以下を書き込み
+```bash
+#ccat alias
+#色付きcatコマンド
+alias cat='ccat'
+```
+
+エイリアスを使わない場合は`ccats`で使えます
 
 ### exa
 
-lsの結果にアイコンを付けてくれて，色付けもしてくれるのでディレクトリかファイルかの見分けが楽になります． Goはしっかりgopherくんになるところもポイント高いですね :)
+1.以下をターミナルで実行
 
----
+```bash
+#brewでインストール
+brew install exa
+```
 
-<img width="208" alt="スクリーンショット 2022-10-24 3 49 17" src="https://user-images.githubusercontent.com/79553411/197410154-1ed5cd4c-646d-472b-8490-4cf43aa16551.png">
+2.エイリアスの設定
+
+.zshrcに以下を書き込み
+```bash
+#exa alias
+#ディレクトリをツリー表示
+alias tree='exa -T'
+#色付きlsコマンド
+alias ls='exa --icons'
+```
+
+エイリアスを使わない場合は`exa --icons`などで使えます
+
 
 ---
 
 ### grc
+
+1.以下をターミナルで実行
+
+```bash
+#brewでインストール
+brew install grc
+```
+
+2.エイリアスの設定
+
+.zshrcに以下を書き込み
+```bash
+#grc alias
+alias ping='grc ping'
+alias ifconfig='grc ifconfig'
+alias make='grc make'
+```
+
+エイリアスを使わない場合は`grc ping`などで使えます
+
+
+## Authors
+[@Lion](https://github.com/lion-rion)
+
 
 いろんなものを色付けしてくれるものです．自分はifconfig，ping，makeあたりを色付けしています
 
