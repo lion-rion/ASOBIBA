@@ -6,11 +6,14 @@
 
 以下のサイトからMesloLGフォントをダウンロード・インストールしましょう．自分はRegularを使っています．
 
-https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
+<a href="https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k" target="_blank">https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k</a>
 
 ---
 
-<img width="444" alt="スクリーンショット 2022-10-24 4 04 19" src="https://user-images.githubusercontent.com/79553411/197410748-6b9c7d05-e97c-4797-992b-9a08425b64e6.png">
+- [MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
+- [MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
+- [MesloLGS NF Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
+- [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k:~:text=MesloLGS%20NF%20Bold%20Italic.ttf)
 
 ---
 
