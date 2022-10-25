@@ -9,6 +9,7 @@
 <a href="https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k" target="_blank">https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k</a>
 
 ---
+引用リンクです
 
 - [MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
 - [MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
