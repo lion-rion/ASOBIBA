@@ -36,32 +36,35 @@ laravel
 docker-compose up -d --build
 ```
 
+bashやmysqlにはいるには以下を実行
+
+```bash
+# login bash
+docker-compose exec php-apache /bin/bash
+
+#login mysql
+docker-compose exec database mysql -u root -p secret
+```
+
 ## laravelのセッティング
 
-任意のシェルにて以下を実行
+laravelの環境構築を行いたい場合は先ほどと同じディレクトリでコマンドを実行してください
+ただしnpmやnodeは入れていないので注意です．
+バージョンは指定できますので"9.*"の部分を変更してください．
 
 ```
 # login apache bash
 docker-compose exec php-apache /bin/bash
 
-#start project
-
-
-# package install
-composer install
-
-# key setting
-php artisan key:generate
+#start project with version of ...
+composer create-project laravel/laravel="9.*" .
 
 # storage setting
 chmod -R 666 storage
 php artisan storage:link
-
-# DB migration with factory
-php artisan migrate
 ```
 
-## DB接続
+### DB接続
 
 .env.exampleをコピーして.envファイルを作成する
 
@@ -75,9 +78,17 @@ DB_USERNAME=root
 DB_PASSWORD=secret
 ```
 
+### migration
+
+```bash
+
+# DB migration
+php artisan migrate
+```
+
 # Ports
 
-|  Port  |  使用  |
+|  Port  |  割当  |
 | ---- | ---- |
 |  tcp:80  |  8080  |
 |  mysql:3606  |  4306  |
