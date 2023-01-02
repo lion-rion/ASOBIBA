@@ -3,6 +3,8 @@
 Google Formに送信された質問をhooksを用いてDiscordに転送します．
 新歓などで匿名で質問を受けるときに使い物になると思います．
 
+<img width="742" alt="スクリーンショット 2023-01-02 15 23 55" src="https://user-images.githubusercontent.com/79553411/210200113-afae8cc3-0ccf-4a93-a382-c26c664be15e.png">
+
 # Usage
 
 1. Google Formでフォームを作成
@@ -17,7 +19,5 @@ Google Formに送信された質問をhooksを用いてDiscordに転送します
 ```
 
 とします．以上で設定は完了です．フォームを送信したときにDiscordにメッセージが飛んできたら成功です．
-
-
 
 
